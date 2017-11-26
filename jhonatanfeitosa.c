@@ -57,10 +57,10 @@ main () {
                     break;
                     case 5:
                         limpartela();
-                        printf("OBRIGADO VOLTE SEMPRE!\n");
+                        printf("\n\n\t\t\tOBRIGADO VOLTE SEMPRE!\n");
                         break;
                     default:
-                        printf("Opção Inválida\n");
+                        printf("\n\n\t\t\tOpção Inválida\n");
                         break;
                 }
         }while(opcao != 5);
@@ -193,10 +193,10 @@ void pesquisar(){
                                             system("pause");
                                         }
                                 }
-                                //fim da nova linha
+
 
                         }else{
-                            //mudar
+
                             limparbuffer();
                                     printf("\t\t\tDigite o nome da conta a ser pesquisado: \n");
                                     gets(pnome);
@@ -212,7 +212,7 @@ void pesquisar(){
                                                     system("pause");
                                         }
                                 }
-                                //fim da
+
 
                             }
                 }
